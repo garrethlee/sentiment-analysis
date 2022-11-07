@@ -5,7 +5,7 @@ from utils.helpers import *
 
 DISPLAY_RESULTS = False
 
-st.title("Sentiment Predictor")
+st.title("Sentiment Detection")
 
 col1, col2, = st.columns([6,4])
 with col1:
