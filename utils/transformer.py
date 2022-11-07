@@ -6,6 +6,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 import nltk
 
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 class SentimentDetectorPreprocessor(BaseEstimator, TransformerMixin):
     def __init__(self):
