@@ -3,6 +3,9 @@ import pickle
 from nltk.stem.wordnet import WordNetLemmatizer
 import pandas as pd
 from sklearn.base import BaseEstimator, TransformerMixin
+import nltk
+
+nltk.download('wordnet')
 
 class SentimentDetectorPreprocessor(BaseEstimator, TransformerMixin):
     def __init__(self):
